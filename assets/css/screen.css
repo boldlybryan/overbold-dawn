@@ -34,3 +34,27 @@
 @import "misc/utils.css";
 @import "misc/animations.css";
 @import "misc/dark.css";
+
+:root {
+    --brand-color: rgb(3, 151, 90);
+}
+
+.site-header .logo-text {
+    color: var(--darker-gray-color);
+    text-transform: uppercase;
+    letter-spacing: -0.05em;
+}
+
+.c-cover-image {
+    padding: 9rem 0;
+}
+
+.c-cover-image .cover-content {
+    max-width: 100%;
+}
+
+.button[data-portal="signup"] {
+    background-color: var(--brand-color);
+    color: var(--white-color);
+    border-color: var(--brand-color);
+}
