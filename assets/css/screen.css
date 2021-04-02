@@ -58,3 +58,8 @@
     color: var(--white-color);
     border-color: var(--brand-color);
 }
+
+.cove-input {
+    width: auto !important;
+    height: 36px;
+}
